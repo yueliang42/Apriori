@@ -107,7 +107,7 @@ if __name__ == '__main__':
     print ('rules:\n', rules)
     print('************')
     myDat1 = [['192.168.1.3', 'chrome', 1], ['192.168.0.3', 'chrome', 1], ['192.168.1.3', 'firefox', 1],
-              ['192.168.0.3', 'firefox', 0]]
+              ['192.168.0.3', 'firefox', 0], ['192.168.0.3', 'ie', 1], ['192.168.1.3', 'chrome', 0], ['192.168.1.3', 'chrome', 0]]
     L1, suppData1 = apriori(myDat1, 0.1)
-    rules1 = generateRules(L1, suppData1, minConf=0.99)
+    rules1 = generateRules(L1, suppData1, minConf=0.5)
     print ('rules1:\n', rules1)

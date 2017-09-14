@@ -3,7 +3,7 @@ import pyfpgrowth
 
 transactions=[]
 
-with open("sample7.txt") as f:
+with open("sample8.txt") as f:
     for line in f:
         line=line.strip('\n')
         ip,ua,target=line.split(',')
@@ -13,6 +13,6 @@ with open("sample7.txt") as f:
 
 
 patterns = pyfpgrowth.find_frequent_patterns(transactions, 2)
-rules = pyfpgrowth.generate_association_rules(patterns, 0.9)
+rules = pyfpgrowth.generate_association_rules(patterns, 0.5)
 
 print rules

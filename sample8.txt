@@ -1,0 +1,12 @@
+ip=ip1,ua=ua1,devil=1
+ip=ip1,ua=ua2,devil=0
+ip=ip3,ua=ua1,devil=1
+ip=ip1,ua=ua1,devil=1
+ip=ip2,ua=ua1,devil=1
+ip=ip3,ua=ua1,devil=1
+ip=ip4,ua=ua2,devil=0
+ip=ip5,ua=ua3,devil=1
+ip=ip5,ua=ua6,devil=0
+ip=ip6,ua=ua3,devil=1
+ip=ip7,ua=ua4,devil=1
+ip=ip8,ua=ua5,devil=1
